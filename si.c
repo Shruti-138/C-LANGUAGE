@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include<stdio.h>
 int main(){
     int principle,rate,time,si;
     printf("enter principle:");
@@ -8,5 +8,6 @@ int main(){
     printf("enter time:");
     scanf("%d",& time);
     si=(principle*rate*time)/100;
-    printf("%d",si);
+    printf(" simple interest is %d",si);
+    return 0;
 }
